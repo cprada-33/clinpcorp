@@ -1,0 +1,90 @@
+// =============================================================================
+// COLOR VARIABLES
+// =============================================================================
+
+:root {
+  // Custom utility colors (not covered by Vuetify themes)
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-transparent: transparent;
+
+  // Background variations
+  --color-bg-overlay: rgba(0, 0, 0, 0.5);
+
+  // Border utilities
+  --color-border-light: #e0e0e0;
+  --color-border-medium: #bdbdbd;
+
+  // Shadow utilities
+  --color-shadow-light: rgba(0, 0, 0, 0.1);
+  --color-shadow-medium: rgba(0, 0, 0, 0.2);
+  --color-shadow-heavy: rgba(0, 0, 0, 0.3);
+}
+
+// =============================================================================
+// COLOR UTILITY CLASSES
+// =============================================================================
+
+// Background utilities
+.bg-main {
+  background-color: var(--color-white) !important;
+}
+.bg-white {
+  background-color: var(--color-white) !important;
+}
+.bg-black {
+  background-color: var(--color-black) !important;
+}
+.bg-transparent {
+  background-color: var(--color-transparent) !important;
+}
+.bg-overlay {
+  background-color: var(--color-bg-overlay) !important;
+}
+
+// Border utilities
+.border-light {
+  border-color: var(--color-border-light) !important;
+}
+.border-medium {
+  border-color: var(--color-border-medium) !important;
+}
+
+// Shadow utilities
+.shadow-light {
+  box-shadow: 0 2px 4px var(--color-shadow-light) !important;
+}
+.shadow-medium {
+  box-shadow: 0 4px 8px var(--color-shadow-medium) !important;
+}
+.shadow-heavy {
+  box-shadow: 0 8px 16px var(--color-shadow-heavy) !important;
+}
+
+// =============================================================================
+// GRADIENT UTILITIES
+// =============================================================================
+
+.gradient-primary {
+  background: linear-gradient(
+    135deg,
+    rgb(var(--v-theme-primary)),
+    rgb(var(--v-theme-primary-darken-1))
+  );
+}
+
+.gradient-secondary {
+  background: linear-gradient(
+    135deg,
+    rgb(var(--v-theme-secondary)),
+    rgb(var(--v-theme-secondary-darken-1))
+  );
+}
+
+.gradient-accent {
+  background: linear-gradient(
+    135deg,
+    rgb(var(--v-theme-accent)),
+    rgb(var(--v-theme-accent-darken-1))
+  );
+}

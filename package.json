@@ -7,14 +7,19 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "deploy": "firebase deploy --only hosting"
   },
   "dependencies": {
+    "@fontsource-variable/work-sans": "^5.2.6",
     "@mdi/font": "^7.4.47",
     "@nuxt/eslint": "^1.6.0",
     "@nuxt/fonts": "^0.11.4",
     "@nuxt/icon": "^1.15.0",
+    "@nuxtjs/i18n": "^10.1.0",
+    "country-state-city": "^3.2.1",
     "eslint": "^9.31.0",
+    "firebase": "^12.4.0",
     "nuxt": "^3.17.7",
     "sass": "^1.89.2",
     "vue": "^3.5.17",

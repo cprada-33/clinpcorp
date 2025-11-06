@@ -1,0 +1,81 @@
+@use "colors";
+@use "typography";
+@use "effects";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Work Sans Variable", sans-serif;
+  line-height: 1.6;
+  color: rgb(var(--v-theme-on-surface));
+}
+
+// =============================================================================
+// UTILITY OVERRIDES
+// =============================================================================
+
+// Ensure Vuetify components work well with our utilities
+.v-btn {
+  text-transform: none;
+  font-weight: 500;
+}
+
+.v-card {
+  transition: box-shadow 0.3s ease;
+}
+
+.v-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+// =============================================================================
+// CUSTOM COMPONENT STYLES
+// =============================================================================
+
+// Conditional navbar global adjustments
+.v-application {
+  // Only remove padding when navbar is overlay (home page)
+  &.home-page .v-main {
+    padding-top: 0 !important;
+  }
+}
+
+// Navbar custom styles
+.navbar-custom {
+  backdrop-filter: blur(10px);
+  background-color: rgba(var(--v-theme-surface), 0.95);
+}
+
+// Custom button styles
+.btn-custom {
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+// Custom card styles
+.card-custom {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+// =============================================================================
+// PRINT STYLES
+// =============================================================================
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  body {
+    background: white !important;
+    color: black !important;
+  }
+}
