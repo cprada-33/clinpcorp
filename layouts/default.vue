@@ -1,31 +1,25 @@
 <template>
-  <v-app>
-    <v-app-bar
-      color="primary"
-      dark
-      app
-    >
-      <v-app-bar-title>ClinCorp</v-app-bar-title>
-      
-      <v-spacer />
-      
-      <v-btn icon>
-        <v-icon>mdi-dots-vertical</v-icon>
-      </v-btn>
-    </v-app-bar>
+  <v-app :class="{ 'home-page': isHomePage }">
+    <layout-navbar />
 
     <v-main>
-      <v-container fluid>
-        <slot />
-      </v-container>
+      <slot />
     </v-main>
 
-    <v-footer
-      color="primary"
-      dark
-      app
-    >
-      <span>&copy; {{ new Date().getFullYear() }} ClinCorp - Sistema Clínico Corporativo</span>
-    </v-footer>
+    <layout-footer />
   </v-app>
 </template>
+
+<script setup lang="ts">
+import { useRoute } from "vue-router";
+
+const route = useRoute();
+const isHomePage = computed(() => {
+  const { locale } = useI18n();
+  const currentLocale = locale.value;
+  return route.name === "index" || route.name === `index___${currentLocale}`;
+});
+
+// Provide isHomePage to child components
+provide('isHomePage', isHomePage);
+</script>

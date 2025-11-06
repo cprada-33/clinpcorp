@@ -1,0 +1,70 @@
+[
+  {
+    "title": "REGULAR SIZED CARGO",
+    "value": null
+  },
+  {
+    "title": "20' DRY Standard",
+    "value": "20-dry-standard"
+  },
+  {
+    "title": "40' DRY Standard",
+    "value": "40-dry-standard"
+  },
+  {
+    "title": "40' DRY High",
+    "value": "40-dry-high"
+  },
+  {
+    "title": "45' DRY High",
+    "value": "45-dry-high"
+  },
+  {
+    "title": "20' Tank",
+    "value": "20-tank"
+  },
+  {
+    "title": "40' Tank",
+    "value": "40-tank"
+  },
+  {
+    "title": "REEFER CONTAINER",
+    "value": null
+  },
+  {
+    "title": "20's Reefer Standard",
+    "value": "20-reefer-standard"
+  },
+  {
+    "title": "40's Reefer Standard",
+    "value": "40-reefer-standard"
+  },
+  {
+    "title": "ODD SIZED CONTAINER",
+    "value": null
+  },
+  {
+    "title": "20' Open top",
+    "value": "20-open-top"
+  },
+  {
+    "title": "40' Open top",
+    "value": "40-open-top"
+  },
+  {
+    "title": "40' Open top High",
+    "value": "40-open-top-high"
+  },
+  {
+    "title": "40' Flat standard",
+    "value": "45-flat-standard"
+  },
+  {
+    "title": "40' Flat High",
+    "value": "20-flat-high"
+  },
+  {
+    "title": "20' Flat",
+    "value": "40-flat"
+  }
+]

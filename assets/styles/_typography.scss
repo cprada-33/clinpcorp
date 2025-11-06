@@ -1,0 +1,142 @@
+// =============================================================================
+// TYPOGRAPHY VARIABLES
+// =============================================================================
+
+:root {
+  // Text variations
+  --color-text-muted: #757575;
+  --color-text-disabled: #bdbdbd;
+
+  // Font weights
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  // Font sizes
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+
+  // Line heights
+  --line-height-tight: 1.25;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.75;
+}
+
+// =============================================================================
+// TYPOGRAPHY UTILITY CLASSES
+// =============================================================================
+
+// Text color utilities
+.text-white {
+  color: var(--color-white) !important;
+}
+.text-black {
+  color: var(--color-black) !important;
+}
+.text-muted {
+  color: var(--color-text-muted) !important;
+}
+.text-disabled {
+  color: var(--color-text-disabled) !important;
+}
+
+// Font weight utilities
+.font-light {
+  font-weight: var(--font-weight-light) !important;
+}
+.font-normal {
+  font-weight: var(--font-weight-normal) !important;
+}
+.font-medium {
+  font-weight: var(--font-weight-medium) !important;
+}
+.font-semibold {
+  font-weight: var(--font-weight-semibold) !important;
+}
+.font-bold {
+  font-weight: var(--font-weight-bold) !important;
+}
+
+// Font size utilities
+.text-xs {
+  font-size: var(--font-size-xs) !important;
+}
+.text-sm {
+  font-size: var(--font-size-sm) !important;
+}
+.text-base {
+  font-size: var(--font-size-base) !important;
+}
+.text-lg {
+  font-size: var(--font-size-lg) !important;
+}
+.text-xl {
+  font-size: var(--font-size-xl) !important;
+}
+.text-2xl {
+  font-size: var(--font-size-2xl) !important;
+}
+.text-3xl {
+  font-size: var(--font-size-3xl) !important;
+}
+.text-4xl {
+  font-size: var(--font-size-4xl) !important;
+}
+
+// Line height utilities
+.leading-tight {
+  line-height: var(--line-height-tight) !important;
+}
+.leading-normal {
+  line-height: var(--line-height-normal) !important;
+}
+.leading-relaxed {
+  line-height: var(--line-height-relaxed) !important;
+}
+
+// Text alignment utilities
+.text-left {
+  text-align: left !important;
+}
+.text-center {
+  text-align: center !important;
+}
+.text-right {
+  text-align: right !important;
+}
+.text-justify {
+  text-align: justify !important;
+}
+
+// Text transform utilities
+.uppercase {
+  text-transform: uppercase !important;
+}
+.lowercase {
+  text-transform: lowercase !important;
+}
+.capitalize {
+  text-transform: capitalize !important;
+}
+.normal-case {
+  text-transform: none !important;
+}
+
+// Text decoration utilities
+.underline {
+  text-decoration: underline !important;
+}
+.line-through {
+  text-decoration: line-through !important;
+}
+.no-underline {
+  text-decoration: none !important;
+}

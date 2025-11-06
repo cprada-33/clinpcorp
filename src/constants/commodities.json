@@ -1,0 +1,110 @@
+[
+  {
+    "title": "DRY CARGO",
+    "value": null
+  },
+  {
+    "title": "Dry Cargo - Freight all kinds",
+    "value": "freight-all-kinds"
+  },
+  {
+    "title": "REEFER CHILLED CARGO",
+    "value": null
+  },
+  {
+    "title": "Chilled - Avocado",
+    "value": "chilled-avocado"
+  },
+  {
+    "title": "Chilled - Banana - Pineapples - Papaya",
+    "value": "chilled-banana-pineapples-papaya"
+  },
+  {
+    "title": "Chilled - Berries",
+    "value": "chilled-berries"
+  },
+  {
+    "title": "Chilled - Beverage",
+    "value": "chilled-beverage"
+  },
+  {
+    "title": "Chilled - Chemicals and fertilizers",
+    "value": "chilled-chemicals-fertilizers"
+  },
+  {
+    "title": "Chilled - Citrus",
+    "value": "chilled-citrus"
+  },
+  {
+    "title": "Chilled - Coffee, tea and cocoa beans",
+    "value": "chilled-coffee-tea-cocoabeans"
+  },
+  {
+    "title": "Chilled - Fish",
+    "value": "chilled-fish"
+  },
+  {
+    "title": "Chilled - Flower, food builbs and botanicals",
+    "value": "chilled-flower-bulbs-botanicals"
+  },
+  {
+    "title": "Chilled - Foodstuff, food ingredients and dairy",
+    "value": "chilled-foodstuff-ingredients-dairy"
+  },
+  {
+    "title": "Chilled - Fruits",
+    "value": "chilled-fruits"
+  },
+  {
+    "title": "Chilled - Grain, raice, flour, seed, nuts and vegetable oil",
+    "value": "chilled-grain"
+  },
+  {
+    "title": "Chilled - Meat",
+    "value": "chilled-meat"
+  },
+  {
+    "title": "Chilled - Other",
+    "value": "chilled-other"
+  },
+  {
+    "title": "Chilled - Sea food",
+    "value": "chilled-sea-food"
+  },
+  {
+    "title": "Chilled - Vegetables",
+    "value": "chilled-vegetables"
+  },
+  {
+    "title": "REEFER FROZEN CARGO",
+    "value": null
+  },
+  {
+    "title": "Frozen - Beverages",
+    "value": "frozen-beverages"
+  },
+  {
+    "title": "Frozen - Fish",
+    "value": "frozen-fish"
+  },
+  {
+    "title": "Frozen - Foodstuff, food ingredients and dairy",
+    "value": "frozen-foodstuff-ingredients-dairy"
+  },
+  {
+    "title": "Frozen - Fruits and vegetables",
+    "value": "frozen-fruits-vegetables"
+  },
+  {
+    "title": "Frozen - Meat",
+    "value": "frozen-meat"
+  },
+  {
+    "title": "Frozen - Other",
+    "value": "frozen-other"
+  },
+  {
+    "title": "Frozen - Sea food",
+    "value": "frozen-sea-food"
+  }
+]
